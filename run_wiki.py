@@ -1,11 +1,11 @@
 import requests
 
 # Define the URL for FastAPI application
-url = "http://localhost:8001/wiki/"
+url = "http://localhost:8000/wiki/"
 
 # Prompt the user to enter a Eikipedia title and length of the summary
 title = input("Enter a wikipedia title:")
-lenght = input("Enter te summary length (defual is 10):")
+length = input("Enter the summary length (defual is 10):")
 
 # Define the query parameters
 params = {'title': title, 'length':length}
